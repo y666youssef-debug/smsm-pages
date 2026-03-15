@@ -132,13 +132,7 @@ if(pass == "25/1/2023"){
 <h1>samasemoo ❤️</h1>
 
 <p>
-Bosy ya Sama ana 3aref enek za3lana meny w 7a2ek 3alaya
-Makanesh 2asdy az3alek wallahy Ana 3aref enny kont mo2asar
-ma3aky w deh ghalta meny Meshkelty enny mesh ba3raf a3abar
-3an elli gowaya awy Bas wallahy ana ba7ebek awy w rabena
-ya3lam Ana asif 3ala ay 7aga 3ameltaha w wa3edek enny
-a7awel ab2a a7san w maza3elkeesh tany Matza3leesh meny
-ya Sama 😍❤️
+dosy henaa
 </p>
 
 <button onclick="checkPassword()">
@@ -148,8 +142,13 @@ Open the message ❤️
 <div id="secret" style="display:none; margin-top:30px;">
 
 <p>
-You mean a lot to me Sama 💗  
-I hope you forgive me.
+Bosy ya Sama ana 3aref enek za3lana meny w 7a2ek 3alaya
+Makanesh 2asdy az3alek wallahy Ana 3aref enny kont mo2asar
+ma3aky w deh ghalta meny Meshkelty enny mesh ba3raf a3abar
+3an elli gowaya awy Bas wallahy ana ba7ebek awy w rabena
+ya3lam Ana asif 3ala ay 7aga 3ameltaha w wa3edek enny
+a7awel ab2a a7san w maza3elkeesh tany Matza3leesh meny
+ya Sama 😍❤️
 </p>
 
 <p>bakoraa</p>
