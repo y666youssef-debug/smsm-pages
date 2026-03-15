@@ -112,13 +112,13 @@ button:hover{
 
 function checkPassword(){
 
-let pass = prompt("Enter the special date ❤️");
+let pass = prompt("7te elyom elli et3rfna feh ❤️");
 
 if(pass == "25/1/2023"){
-    alert("welcome ya Sama ❤️");
+    alert("4toraaa ❤️");
     document.getElementById("secret").style.display="block";
 }else{
-    alert("wrong date 🙈");
+    alert("t2t2 4lat 🙈");
 }
 
 }
