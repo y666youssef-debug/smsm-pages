@@ -112,7 +112,7 @@ button:hover{
 
 function checkPassword(){
 
-let pass = prompt("7te elyom elli et3rfna feh ❤️");
+let pass = prompt("7ote elyom elli et3rfna feh ❤️");
 
 if(pass == "25/1/2023"){
     alert("4toraaa ❤️");
