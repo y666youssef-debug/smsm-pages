@@ -1,1 +1,170 @@
-# smsm-pages
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>5las ya smasemoo</title>
+
+<style>
+
+body{
+    background: linear-gradient(135deg,#ff85b6,#ff4d88);
+    text-align:center;
+    font-family:Arial;
+    margin-top:120px;
+    color:white;
+}
+
+h1{
+    font-size:40px;
+}
+
+p{
+    font-size:22px;
+    width:60%;
+    margin:auto;
+    line-height:1.7;
+}
+
+/* زرار */
+
+button{
+    margin-top:40px;
+    padding:15px 35px;
+    font-size:20px;
+    border:none;
+    border-radius:30px;
+    background:white;
+    color:#ff2f75;
+    cursor:pointer;
+    transition:0.3s;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+button:hover{
+    transform:scale(1.1);
+    background:#ffe6ef;
+}
+
+/* القلوب */
+
+.hearts{
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    overflow:hidden;
+    z-index:-1;
+}
+
+.heart{
+    position:absolute;
+    width:25px;
+    height:25px;
+    background:red;
+    transform:rotate(45deg);
+    animation: float 6s linear infinite;
+}
+
+.heart::before,
+.heart::after{
+    content:'';
+    position:absolute;
+    width:25px;
+    height:25px;
+    background:red;
+    border-radius:50%;
+}
+
+.heart::before{
+    top:-12px;
+    left:0;
+}
+
+.heart::after{
+    left:-12px;
+    top:0;
+}
+
+.heart:nth-child(1){ left:10%; animation-duration:6s; }
+.heart:nth-child(2){ left:30%; animation-duration:8s; }
+.heart:nth-child(3){ left:50%; animation-duration:7s; }
+.heart:nth-child(4){ left:70%; animation-duration:9s; }
+.heart:nth-child(5){ left:90%; animation-duration:6s; }
+
+@keyframes float{
+    0%{
+        bottom:-50px;
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        bottom:100%;
+        opacity:0;
+    }
+}
+
+</style>
+
+<script>
+
+function checkPassword(){
+
+let pass = prompt("Enter the special date ❤️");
+
+if(pass == "25/1/2023"){
+    alert("welcome ya Sama ❤️");
+    document.getElementById("secret").style.display="block";
+}else{
+    alert("wrong date 🙈");
+}
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<h1>samasemoo ❤️</h1>
+
+<p>
+Bosy ya Sama ana 3aref enek za3lana meny w 7a2ek 3alaya
+Makanesh 2asdy az3alek wallahy Ana 3aref enny kont mo2asar
+ma3aky w deh ghalta meny Meshkelty enny mesh ba3raf a3abar
+3an elli gowaya awy Bas wallahy ana ba7ebek awy w rabena
+ya3lam Ana asif 3ala ay 7aga 3ameltaha w wa3edek enny
+a7awel ab2a a7san w maza3elkeesh tany Matza3leesh meny
+ya Sama 😍❤️
+</p>
+
+<button onclick="checkPassword()">
+Open the message ❤️
+</button>
+
+<div id="secret" style="display:none; margin-top:30px;">
+
+<p>
+You mean a lot to me Sama 💗  
+I hope you forgive me.
+</p>
+
+<p>bakoraa</p>
+
+</div>
+
+<!-- القلوب -->
+
+<div class="hearts">
+<div class="heart"></div>
+<div class="heart"></div>
+<div class="heart"></div>
+<div class="heart"></div>
+<div class="heart"></div>
+</div>
+
+</body>
+</html>
